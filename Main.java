@@ -3,13 +3,12 @@ import java.util.Scanner;
 import java.util.Iterator;
 
 public class Main {
-    
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         ArrayList<Empleado> empleados = new ArrayList<>();
         String continuar;
-        
 
         do {
             System.out.print("Ingrese ID: ");
