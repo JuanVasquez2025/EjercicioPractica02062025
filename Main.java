@@ -3,9 +3,7 @@ import java.util.Scanner;
 import java.util.Iterator;
 
 public class Main {
-//Una vez que el usuario decida detener la carga de datos el programa
-//deberá mostrar los empleados registrados, haciendo uso de la clase
-//Iterator.
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Empleado> empleados = new ArrayList<>();
