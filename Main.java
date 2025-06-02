@@ -3,11 +3,13 @@ import java.util.Scanner;
 import java.util.Iterator;
 
 public class Main {
-
+    
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         ArrayList<Empleado> empleados = new ArrayList<>();
         String continuar;
+        
 
         do {
             System.out.print("Ingrese ID: ");
@@ -29,6 +31,7 @@ public class Main {
             Empleado empleado = new Empleado(id, nombre, apellido, departamento, salario);
             empleados.add(empleado);
             
+            System.out.println("Empleado agregado.");
             System.out.println("\nEmpleados ingresados hasta ahora:");
             Iterator<Empleado> iterator = empleados.iterator();
 

@@ -1,7 +1,5 @@
 public class Empleado {
-    // Crear la clase Empleado con los siguientes atributos: id, nombre, apellido,
-    // departamento y salario (se debe aplicar el encapsulamiento de las
-    // propiedades).
+
     private int id;
     private String nombre;
     private String apellido;
